@@ -1,0 +1,65 @@
+################## Things used in the Project  ##############
+
+# Dependencies
+
+	"react-bootstrap": "^1.6.1" ================= BootStrap used for designing and default designs for Dom Elements.
+
+    "react-bootstrap-date-picker": "^5.1.0" ================== Used for Date Selection of Birthday.
+
+    "react-router-dom": "^5.2.0" ================ Used for Routes, Link.
+    
+    "styled-components": "^5.3.0" ======= for Custom CSS, Future use of SSR,Theming.
+
+
+# URL:-
+
+	#### Fake API  
+
+	Users Registration :- http://localhost:3000/profile;
+	Login :- http://localhost:3000/profile;
+
+
+	Items :- http://localhost:3000/posts
+	AddItem :- http://localhost:3000/posts  
+	GetItems:- http://localhost:3000/posts/${id}
+	DeleteItems:- http://localhost:3000/posts/${id}
+
+	#########LocalStorage to check if login or not###########
+
+# DB:-
+
+##### Fake API folder has file DB.json#############
+
+
+########### How To Install Fake APIS ##########
+
+# Create a folder name of your own choice on the desired location. For now, I have created with the name: Fake-APIs.
+
+# Run npm init inside the folder. It'll prompt you with a set of questions and successfully create a package.json file.
+
+# Run npm install — save json-server. It'll add the same dependency to the package.json file too. To install json-server globally, run npm install -g json-server.
+
+# We need to start our server now. To do so, open the package.json file and add a key-value in the scripts object after line 7: "json:server":"json-server — watch db.json".
+
+# Open the command prompt and navigate to the folder. Run the command:
+npm run json:server. It'll run your server locally on http://localhost:3000
+
+# You should see a file named db.json created in the folder. When you run the server locally, it tries to search for the file (db.json) and if not found, it creates a file on its own with mock JSON data.
+
+# When you hit http://localhost:3000, you should see the following output. It has predefined 3 resources: posts, commands, profile. These resources are picked from the db.json file.
+
+
+############# How to Run FrontEnd ##################
+
+# Install node modules globally, As I have set a new port and updated it will run on port number 3006, http://localhost:3006 default Route is login will redirect to http://localhost:3000/login
+
+# That's It enjoy...
+
+#####################################################################################
+
+
+
+
+
+
+
