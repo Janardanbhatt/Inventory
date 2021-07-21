@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "itemname": "sdfsdf",
+      "itemtype": "sdfsdf",
+      "tin": "sdfsdf",
+      "quantity": "sdfsdf",
+      "price": "sdfsdf",
+      "id": 2
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "firstname": "Janardan",
+    "lastname": "Janardan",
+    "email": "Janardan@gmail.com",
+    "password": "Janardan",
+    "address": "Janardan",
+    "address2": "Janardan",
+    "city": "Janardan",
+    "state": "Janardan",
+    "zipcode": "Janardan",
+    "dob": "2021-07-21"
+  }
+}
